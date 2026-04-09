@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx @react-native-community/cli@latest init mobile --skip-install)",
+      "Bash(yarn install:*)"
+    ]
+  }
+}
