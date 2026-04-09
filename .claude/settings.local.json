@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(npx @react-native-community/cli@latest init mobile --skip-install)",
-      "Bash(yarn install:*)"
+      "Bash(yarn install:*)",
+      "Bash(cat c:/projetos/react-native-monorepo/.yarn/cache/@react-native-typescript-config*)",
+      "Bash(yarn --cwd c:/projetos/react-native-monorepo why @react-native/typescript-config)"
     ]
   }
 }
